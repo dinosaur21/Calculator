@@ -4,11 +4,11 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: hsl(0, 36%, 48%);
+    background-color: hsl(243, 77%, 15%);
 }
 #calculator{
     font-family: monospace;
-    background-color: hsl(0, 83%, 80%);
+    background-color: hsl(217, 83%, 36%);
     
     border-radius:50px;
     max-width:550px;
@@ -17,11 +17,11 @@ body{
 #display{
     width: 100%;
     padding: 20px;
-    font-size: 5rem;
-    text-align: left;
+    font-size: 4rem;
+    text-align:justify;
     border: none;
-    background-color: hsl(0, 67%, 73%);
-    color: white;
+    background-color: hsl(222, 55%, 30%);
+    color: rgb(254, 253, 253);
 }
 #keys{
     display: grid;
@@ -34,28 +34,28 @@ button{
     height: 100px;
     border-radius: 30px;
     border: none;
-    background-color: hsl(0, 23%, 97%);
-    color: rgb(183, 104, 104);
+    background-color: hsl(213, 80%, 48%);
+    color: rgb(246, 248, 249);
     font-size: 3rem;
     font-weight: bold;
     cursor: pointer;
 }
 button:hover{
-    background-color: hsl(0, 32%, 83%);
+    background-color: hsl(211, 62%, 39%);
 }
 button:active{
-    background-color: hsl(0, 45%, 84%);
+    background-color: hsl(219, 84%, 33%);
     
 }
 .operator-btn{
-    background-color: hsl(0, 51%, 37%);
+    background-color: hsl(207, 80%, 66%);
     color:white;
 }
 .operator-btn:hover{
-    background-color: hsl(0, 33%, 19%);
+    background-color: hsl(210, 55%, 45%);
 }
 .operator-btn:active{
-    background-color: hsl(0, 30%, 20%);
+    background-color: hsl(203, 63%, 33%);
 }
 
 
